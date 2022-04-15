@@ -1,12 +1,9 @@
 import React from 'react';
 import './App.css';
+import Hero from './components/Hero/Hero';
 
 function App() {
-  return (
-    <div>
-      {/*  */}
-    </div>
-  );
+  return (<Hero />);
 }
 
 export default App;

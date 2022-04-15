@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.hero {
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 150px;
+}
+
+.hero .hero-content h1 {
+    /* font-family: 'Playfair Display', serif; */
+    font-size: 65px;
+}
+.hero .hero-content h1 span {
+    color: #3C38FF;
+}
+
+.hero .hero-content .hero-subline p {
+    margin: 20px 0;
+    margin-bottom: 30px;
+    line-height: 23px;
+}
+
+.hero .hero-content .hero-button a {
+    background: #3C38FF;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #fff;
+    padding: 7px 26px;
+}
+
+.hero .hero-image img{
+    width: 450px;
+    /* box-shadow: 0px 0px 7px 0px #445cff; */
+    border-radius: 34px;
+}
