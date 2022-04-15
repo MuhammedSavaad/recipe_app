@@ -1,0 +1,34 @@
+header {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #ffffff;
+    height: 80px;
+    -webkit-box-shadow:0px 1px 1px #3C38FF;
+    -moz-box-shadow:0px 1px 1px #3C38FF;
+    box-shadow:0px 1px 4px #3C38FF;
+    padding: 0px 80px;
+}
+
+header .header-logo h2 span {
+    color: #3C38FF;
+}
+
+header ul {
+    display: flex;
+    list-style: none;    
+}
+header ul li {
+    margin-right: 25px;
+}
+header ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+}
+header ul li.active a  {
+    transition: 1s ease-in-out;
+    border-bottom: 2px solid #3C38FF;
+}
