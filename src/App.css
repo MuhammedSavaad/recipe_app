@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
 body {
   font-family: "Nova Square";
   background: #F4F4F4;
